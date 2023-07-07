@@ -25,7 +25,7 @@ Install Angular CLI:
 
 
 ```bash
-npm install -g @angular/cli
+npm i -g @angular/cli
 ```
 
 Run
