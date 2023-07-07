@@ -1,16 +1,24 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
+import {ProfileComponent} from './profile/profile.component';
+import {AppRoutingModule} from './app-routing.module';
+import {LoginComponent} from './login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProfileComponent,
+    LoginComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class AppModule { }
+export class AppModule {
+}
