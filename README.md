@@ -18,9 +18,15 @@ This is a sample implementation of the Corbado web component being integrated in
 Please follow the steps in [Getting started](https://docs.corbado.com/overview/getting-started) to create and configure
 a project in the [Corbado developer panel](https://app.corbado.com/signin#register).
 
-You need to have [Node](https://nodejs.org/en/download) and `npm` installed to run it.
+You need to have [Node](https://nodejs.org/en/download), Angular CLI and `npm` installed to run it.
 
 ## Usage
+Install Angular CLI:
+
+
+```bash
+npm install -g @angular/cli
+```
 
 Run
 
