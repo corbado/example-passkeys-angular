@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "passkeys-demo-angular:build:production"
+              "buildTarget": "passkeys-demo-angular:build:production"
             },
             "development": {
-              "browserTarget": "passkeys-demo-angular:build:development"
+              "buildTarget": "passkeys-demo-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "passkeys-demo-angular:build"
+            "buildTarget": "passkeys-demo-angular:build"
           }
         },
         "test": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

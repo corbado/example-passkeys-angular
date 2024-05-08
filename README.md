@@ -1,14 +1,12 @@
 # Complete passkeys integration example for Angular (TypeScript) with Corbado
 
-This is a sample implementation of the Corbado web component being integrated into a web application built with Angular (TypeScript).
+This is a sample implementation of the Corbado web-js package being integrated into a web application built with Angular (TypeScript).
 
 ## File structure
 
-- `src/styles.css`: holds the styling information for the web component
-- `src/app/app.module.ts`: adds support for web components
+- `src/app/app.module.ts`: acts as a boundary to load the Corbado project
 - `src/app/app-routing.module.ts`: routing for the Angular web app
 - `src/app/login`: component for the login screen
-- `src/app/login/declarations.d.ts`: contains type declarations you need to add as well to make the web component work in TypeScript
 - `src/app/profile`: component for the user profile information that is shown after successful authentication
 
 ## Setup
